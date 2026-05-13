@@ -12,3 +12,4 @@ C:\Projects\ScreenSoundd\ScreenSoundd\obj\Debug\net10.0\refint\ScreenSoundd.dll
 C:\Projects\ScreenSoundd\ScreenSoundd\obj\Debug\net10.0\ScreenSoundd.pdb
 C:\Projects\ScreenSoundd\ScreenSoundd\obj\Debug\net10.0\ScreenSoundd.genruntimeconfig.cache
 C:\Projects\ScreenSoundd\ScreenSoundd\obj\Debug\net10.0\ref\ScreenSoundd.dll
+C:\Projects\ScreenSoundd\ScreenSoundd\obj\Debug\net10.0\ScreenSoundd.sourcelink.json
