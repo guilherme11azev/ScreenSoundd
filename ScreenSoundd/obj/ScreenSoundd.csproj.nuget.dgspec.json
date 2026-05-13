@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj": {}
+    "C:\\Project\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj": {
+    "C:\\Project\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj",
+        "projectUniqueName": "C:\\Project\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj",
         "projectName": "ScreenSoundd",
-        "projectPath": "C:\\Projects\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj",
-        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ScreenSoundd\\ScreenSoundd\\obj\\",
+        "projectPath": "C:\\Project\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj",
+        "packagesPath": "C:\\Users\\C004316\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\ScreenSoundd\\ScreenSoundd\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\C004316\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

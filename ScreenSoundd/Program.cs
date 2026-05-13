@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using ScreenSoundd.Modelos;
+using ScreenSoundd.Filtros;
 
 using (HttpClient client = new HttpClient())
 {
@@ -9,6 +10,7 @@ using (HttpClient client = new HttpClient())
         Console.WriteLine(resposta);
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta); 
         musicas[0].ExibirDetalhesDaMusica();
+        LinqFilter.FiltrarTodososGerenerosMusicais(musicas);
     }
     catch (Exception ex)
     {
