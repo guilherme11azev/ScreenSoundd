@@ -1,0 +1,19 @@
+using ScreenSoundd.Modelos;
+
+namespace ScreenSoundd.Modelos
+{
+    internal class LinqOrder
+    {
+         public static void ExibirListaDeArtistasOrdenados(List<Musica> musicas)
+        {
+            var artistasOrdenados = musicas.OrderBy(musica => musica.Artista).Select(musica => musica.Artista)
+            .Distinct().ToList();
+            /*Ordenar músicas com base no artista / tirar artistas repetidos*/
+            System.Console.WriteLine("Lista de artistas ordenados");
+            foreach ( var artista in artistasOrdenados)
+            {
+                System.Console.WriteLine($"- {artista}");
+            }
+        }
+    }
+}
