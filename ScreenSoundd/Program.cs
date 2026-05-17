@@ -7,14 +7,19 @@ using (HttpClient client = new HttpClient())
     try
     {
         string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
-        Console.WriteLine(resposta);
-        var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta); 
-        musicas[0].ExibirDetalhesDaMusica();
-        LinqFilter.FiltrarTodososGerenerosMusicais(musicas);
+        var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
+
+
+        musicas[1].ExibirDetalhesDaMusica();
+        LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
+        LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
+        LinqFilter.FiltrarArtistasPorGeneroMusical(musicas, "Pop");
+        LinqFilter.FiltrarMusicasDeUmArtista(musicas, "The Beatles");
+
+
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+        Console.WriteLine($"Temos um problema: {ex.Message}");
     }
-    
 }

@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Project\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj",
         "projectName": "ScreenSoundd",
         "projectPath": "C:\\Project\\ScreenSoundd\\ScreenSoundd\\ScreenSoundd.csproj",
-        "packagesPath": "C:\\Users\\C004316\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
         "outputPath": "C:\\Project\\ScreenSoundd\\ScreenSoundd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\C004316\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -38,10 +39,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -59,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
